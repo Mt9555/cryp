@@ -1,0 +1,22 @@
+{
+	"name": "cryp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "crypto.js",
+	"scripts": {
+		"start": "nodemon crypto.js",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.25.0",
+		"cheerio": "^1.0.0-rc.10",
+		"express": "^4.17.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15",
+		"prettier": "^2.5.1"
+	}
+}
